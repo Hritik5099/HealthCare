@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   _navigatetohome() async{
-    await Future.delayed(const Duration(seconds: 10),(){});
+    await Future.delayed(const Duration(seconds: 3),(){});
     Get.toNamed("/newAccount");
     setState(() {
       isLoading=true;

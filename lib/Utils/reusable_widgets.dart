@@ -266,7 +266,7 @@ class InsideTopBar extends StatelessWidget {
               children: [
                 SizedBox(height: 10,),
                 Container(
-                  width: 350,
+                  width: 300,
                   decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(color: Colors.grey,width: 2),
